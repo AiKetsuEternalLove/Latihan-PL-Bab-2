@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package githubpraktikum2;
-
-/**
- *
- * @author AiKetsuEternalLove
+/*
+ *NAMA  : I KETUT SIDHARTA YOGATAMA
+ *NIM   : 155150200111102
+ *KELAS : IF - H
  */
 public class Lintasan {
+    private double panjang,lebar;
+    Lintasan(double p,double l){
+        panjang = p;
+        lebar = l;
     
+    
+    }
 }

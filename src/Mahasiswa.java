@@ -5,5 +5,9 @@ package githubpraktikum2;
  *KELAS : IF - H
  */
 public class Mahasiswa {
-    
+    private String nama,nim;
+    Mahasiswa(String n,String m){
+        nama = n;
+        nim = m;
+}
 }
