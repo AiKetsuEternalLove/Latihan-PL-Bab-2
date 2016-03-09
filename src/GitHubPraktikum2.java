@@ -7,26 +7,23 @@ import java.util.Scanner;
  */
 public class GitHubPraktikum2 {
     public static void main(String[] args) {
-       int jumlah,angka;
+       int jumlah;
         Scanner in = new Scanner(System.in);
         Scanner instr = new Scanner(System.in);
         System.out.print("Masukan Jumlah Mahasiswa: ");
-        jumlah = instr.nextInt();
-        angka = in.nextInt();
-        Lintasan coba2 = new Lintasan(angka,angka);
+        jumlah = in.nextInt();
+        
         Mahasiswa coba[] = new Mahasiswa[jumlah];
         for (int i = 0; i < jumlah; i++) {
+            String nama ="nama";
+            String nim ="nama";
+            coba[i] = new Mahasiswa(nama,nim);
             System.out.println("===============================");
-          System.out.print("Masukan Nama Mahasiswa\t: ");
-          String name = instr.nextLine();
-          System.out.print("Masukan NIM \t\t: ");
-          String nim = instr.nextLine();
-          coba[i] = new Mahasiswa(name,nim);
-            
-        
-
-        
+        System.out.print("Masukan Nama Mahasiswa\t: ");
+        coba[i].nama(instr.nextLine());
+        System.out.print("Masukan NIM \t\t: ");
         }
+        
     }
     
 }

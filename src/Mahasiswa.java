@@ -6,8 +6,11 @@ package githubpraktikum2;
  */
 public class Mahasiswa {
     private String nama,nim;
+    
     Mahasiswa(String n,String m){
         nama = n;
         nim = m;
-}
+    }
+
+    
 }

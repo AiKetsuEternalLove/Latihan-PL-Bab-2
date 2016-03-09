@@ -5,11 +5,5 @@ package githubpraktikum2;
  *KELAS : IF - H
  */
 public class Lintasan {
-    private double panjang,lebar;
-    Lintasan(double p,double l){
-        panjang = p;
-        lebar = l;
     
-    
-    }
 }
