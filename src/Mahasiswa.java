@@ -6,11 +6,20 @@ package githubpraktikum2;
  */
 public class Mahasiswa {
     private String nama,nim;
-    
-    Mahasiswa(String n,String m){
+    private double waktu,putaran;
+    public Mahasiswa(String n,String m,double l, double w){
         nama = n;
         nim = m;
+        putaran = l;
+        waktu = w;
+}
+    public double jarak(Lintasan a){
+        return a.keliling()*putaran;
     }
-
-    
+    public String nama(){
+        return nama;
+    }
+    public double kecepatan(){
+        return putaran/waktu;
+    }
 }
